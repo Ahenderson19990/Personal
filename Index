@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Aaron Hendeson</title>
+</head>
+<body>
+<h1>Aaron Henderson</h1>
+<br/>
+
+<p>Hello, welcome to my site! This site is for advertising my 
+skills and projects. Everything on this site has been created by me, Aaron EHnderson. Enjoy your stay.</p>
+
+<h4>Educational Goals</h4>
+<ul>
+	<li>To Succeed</li>
+	<p>One of my long term educational goals is to succeed in what i do. To strive to achieve better grades and better performance overall.</p>
+	<li>To Diversify</li>
+	<p>Another long term educational goal is to diversify in my skills into many platforms. I want to learn skills in many areas including programming, web design,
+		graphic design, etc.</p>
+</ul>
+
+<h5>Employment Goals</h5>
+<p>My goals for employment is to find a job i love. The perfect scenario would just be a job with a great community, doing something i love. I'd also like to do freelance projects that interest me.</p>
+</body>
+</html>
