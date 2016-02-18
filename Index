@@ -1,22 +1,110 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Aaron Henderson</title>
+<style>
+@font-face{ 
+	font-family: 'SeaSide';
+	src: url('SEASRN__-webfont.eot');
+	src: url('SEASRN__-webfont.eot?iefix') format('eot'),
+	     url('SEASRN__-webfont.woff') format('woff'),
+	     url('SEASRN__-webfont.ttf') format('truetype'),
+	     url('SEASRN__-webfont.svg#webfont') format('svg');
+	     
+}
 
-<title>Aaron Hendeson</title>
+@font-face{
+	   font-family: 'Goudy';
+	src: url('goudy_bookletter_1911-webfont.eot');
+	src: url('goudy_bookletter_1911-webfont.eot?iefix') format('eot'),
+	     url('goudy_bookletter_1911-webfont.woff') format('woff'),
+	     url('goudy_bookletter_1911-webfont.ttf') format('truetype'),
+	     url('goudy_bookletter_1911-webfont.svg#webfont') format('svg'); 
+}
+body {
+	background-image: url(http://mycolorscreen.com/wp-content/uploads/wallpapers_2012/145212/NavyBlue.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-color: silver;
+	}
+	#container {
+width: 940px;
+margin: 0 auto;
+}
+h1 {
+	font-family: 'SeaSide';
+	text-align: left;
+}
+
+h6, p{font-family: 'Goudy';}
+
+ul li{
+	background-color:silver;
+}
+div.par {
+	text-align: center;
+	border-style: dotted;
+ 	border-width: 5px;
+    color:white;
+    margin:20px;
+    padding:20px;
+} 
+div.norm{
+	text-align: center;
+	color: black;
+}
+div.norm2{
+	text-align: center;
+	color: black;
+}
+</style>
 </head>
 <body>
-<h1>Aaron Henderson</h1>
-<br/>
+<header>
+	<div class="norm2"><h1 style="color:black">Aaron Henderson</h1></div>
+</header>
+<nav><hr/><div class="norm"><h2>Home	|	About Me	|	HTML	|	C++		|	Projects</h2></div></nav>
+<section>
+<article>
+	<hr/>
+	<div class="norm2">
+	<h2>Welcome!</h2>
+	</div>
+	
+	<div class="par">
+	<p>Hello and welcome to my site! This site is the official website of me, Aaron Henderson.
+		This website will showcase my progress as a learning web designer and programmer.
+		<br> It will also showcase future and current projects.</p>
+		</div>
+	
+	
+	<div class="norm2">
+	<h3>Educational Goals</h3>
+	</div>
+	
+	<div class="par">
+	<p>One of my educational goals is to further my understanding of topics i'm interested in.
+		I'd like to continue to expand my current knowledge of things greatly.
+		Another goal of mine to is to diversify in my abilities.
+		I'm always looking to learn new ideas and skills and develop as a person.</p>
+		</div>
+	
+	<div class="norm2">
+	<h3>Employment Goal</h3>
+	</div>
+	<div class="par">
+	<p>My goal for employment is to find a job that keeps me interested and challenges me constantly.
+		I'm looking forward to work with a great community of people that share my interests.
+		I'd also like to freelance on my own and do personal projects that will occupy my passion for creating new things.
+		</p>
+		</div>
+		
+		
+</article>
+<aside>
+</aside>
+</section>
 
-<p>Hello, welcome to my site! This site is for advertising my 
-skills and projects. Everything on this site has been created by me, Aaron EHnderson. Enjoy your stay.</p>
-
-<h4>Educational Goals</h4>
-	<p>One of my long term educational goals is to succeed in what i do. To strive to achieve better grades and better performance overall.
-	Another long term educational goal is to diversify in my skills into many platforms. I want to learn skills in many areas including programming, web design,
-	graphic design, etc.</p>
-
-<h5>Employment Goals</h5>
-<p>My goals for employment is to find a job i love. The perfect scenario would just be a job with a great community, doing something i love. I'd also like to do freelance projects that interest me.</p>
+<footer><hr/><div style="text-align: center"><h5>&copy; Aaron Henderson - 2/16/2016 - ahenderson19990@gmail.com - All Rights Reserved</h5></div></footer>
 </body>
 </html>
