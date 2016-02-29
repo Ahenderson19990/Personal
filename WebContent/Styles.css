@@ -1,0 +1,73 @@
+<style>
+<h6>
+a{color:lightblue;}
+a:active{color:lightblue;}
+a:visited {color:lightblue;}
+a:hover{color:black;}
+#container{
+	width:85%;
+}
+div.banner {
+	border-width: 2;
+	border-style: dotted;
+   	position: relative; 
+   	margin: 0 auto;
+   	width: 85%; /* for IE 6 */
+}
+div.imagemap {
+	width:140px;
+	height:60px;
+	border-width: 2;
+	border-style: dotted;
+}
+@font-face{ 
+	font-family: 'SeaSide';
+	src: url('SEASRN__-webfont.eot');
+	src: url('SEASRN__-webfont.eot?iefix') format('eot'),
+	     url('SEASRN__-webfont.woff') format('woff'),
+	     url('SEASRN__-webfont.ttf') format('truetype'),
+	     url('SEASRN__-webfont.svg#webfont') format('svg');
+	     
+}
+@font-face{
+	   font-family: 'Goudy';
+	src: url('goudy_bookletter_1911-webfont.eot');
+	src: url('goudy_bookletter_1911-webfont.eot?iefix') format('eot'),
+	     url('goudy_bookletter_1911-webfont.woff') format('woff'),
+	     url('goudy_bookletter_1911-webfont.ttf') format('truetype'),
+	     url('goudy_bookletter_1911-webfont.svg#webfont') format('svg'); 
+}
+body {
+	background-image: url(background.png);
+	background-repeat: repeat;
+	background-position: top center;
+	background-color: silver;
+}
+h1 {
+	font-family: 'SeaSide';
+	text-align: center;
+	color: black;
+	position: absolute;
+	font-size: 125; 
+   	top: 35px; 
+   	width: 100%; 
+}
+h6, p{font-family: 'Goudy';}
+ul li{background-color:silver;}
+div.par {
+	width:60%;
+	position:relative;
+	text-align: center;
+	border-style: dotted;
+ 	border-width: 5px;
+    color:white;
+    margin: 0 auto;
+    padding:20px;
+
+} 
+div.norm{text-align: center;}
+div.norm2{
+	text-align: center;
+	color: black;
+}
+</style>
