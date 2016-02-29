@@ -1,69 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Aaron Henderson</title>
+<link type="text/css" rel="stylesheet" href="Styles.css">
 <style>
-@font-face{ 
-	font-family: 'SeaSide';
-	src: url('SEASRN__-webfont.eot');
-	src: url('SEASRN__-webfont.eot?iefix') format('eot'),
-	     url('SEASRN__-webfont.woff') format('woff'),
-	     url('SEASRN__-webfont.ttf') format('truetype'),
-	     url('SEASRN__-webfont.svg#webfont') format('svg');
-	     
+.dropbtn {
+    background-color: lightblue;
+    color: black;
+    font-family: 'SeaSide';
+    padding: 16px;
+    font-size: 18px;
+    border-style: dotted;
+    cursor: pointer;
 }
 
-@font-face{
-	   font-family: 'Goudy';
-	src: url('goudy_bookletter_1911-webfont.eot');
-	src: url('goudy_bookletter_1911-webfont.eot?iefix') format('eot'),
-	     url('goudy_bookletter_1911-webfont.woff') format('woff'),
-	     url('goudy_bookletter_1911-webfont.ttf') format('truetype'),
-	     url('goudy_bookletter_1911-webfont.svg#webfont') format('svg'); 
-}
-body {
-	background-image: url(http://mycolorscreen.com/wp-content/uploads/wallpapers_2012/145212/NavyBlue.png);
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-color: silver;
-	}
-	#container {
-width: 940px;
-margin: 0 auto;
-}
-h1 {
-	font-family: 'SeaSide';
-	text-align: left;
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
 
-h6, p{font-family: 'Goudy';}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
 
-ul li{
-	background-color:silver;
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-family: 'Goudy';
+    display: block;
 }
-div.par {
-	text-align: center;
-	border-style: dotted;
- 	border-width: 5px;
-    color:white;
-    margin:20px;
-    padding:20px;
-} 
-div.norm{
-	text-align: center;
-	color: black;
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
-div.norm2{
-	text-align: center;
-	color: black;
+
+.dropdown:hover .dropbtn {
+    background-color: grey;
 }
 </style>
+<title>Aaron Henderson</title>
 </head>
 <body>
 <header>
-	<div class="norm2"><h1 style="color:black">Aaron Henderson</h1></div>
+
+	<div class="banner">
+      <img src="header.png" alt="image not found" width="100%" height="100" align="middle">
+     </div> 
+     
+      <h1>Aaron Henderson</h1>
+
+
 </header>
-<nav><hr/><div class="norm"><h2>Home	|	About Me	|	HTML	|	C++		|	Projects</h2></div></nav>
+<nav>
+	<hr/>
+<div class="dropdown">
+  <button class="dropbtn">Navigation</button>
+  <div class="dropdown-content">
+    <a href="index.html">Home</a>
+    <a href="AboutMe.html">About Me</a>
+    <a href="#">C++</a>
+    <a href="#">Projects</a>
+  </div>
+</div>
+</nav>
 <section>
 <article>
 	<hr/>
@@ -105,6 +110,17 @@ div.norm2{
 </aside>
 </section>
 
-<footer><hr/><div style="text-align: center"><h5>&copy; Aaron Henderson - 2/16/2016 - ahenderson19990@gmail.com - All Rights Reserved</h5></div></footer>
+<footer>
+	<hr/><div style="text-align: center"><h5>&copy; Aaron Henderson - 2/16/2016 - ahenderson19990@gmail.com - All Rights Reserved</h5></div>
+	
+	<div class="imagemap">
+	<img src="ug31106.png" usemap="#ug31106" width="140" height="60" alt="click map" border="0" />
+	</div>
+<map id="ug31106" name="ug31106">
+<!-- Region 1 Links to GW junior portfolio home -->
+<area shape="rect" alt="Image Not Found" title="Image Not Found" coords="30,23,205,72" href="http://gw.mvctc.com/web/jportfolio.html" target="_blank" />
+<area shape="default" nohref alt="" />
+</map>
+</footer>
 </body>
 </html>
